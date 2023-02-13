@@ -1,0 +1,6 @@
+getwd()
+
+diabetes<-read.csv("diabetes.csv",header=TRUE,sep=",")
+A<-c(diabetes $age)
+Mean<-mean(A)
+ad<-(A-Mean)/6
