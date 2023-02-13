@@ -1,0 +1,36 @@
+=== Run information ===w
+
+Scheme:       weka.associations.Apriori -N 10 -T 0 -C 0.9 -D 0.05 -U 1.0 -M 0.1 -S -1.0 -c -1
+Relation:     PURU
+Instances:    5
+Attributes:   2
+              TID
+              item set
+=== Associator model (full training set) ===
+
+
+Apriori
+=======
+
+Minimum support: 0.3 (1 instances)
+Minimum metric <confidence>: 0.9
+Number of cycles performed: 14
+
+Generated sets of large itemsets:
+
+Size of set of large itemsets L(1): 10
+
+Size of set of large itemsets L(2): 5
+
+Best rules found:
+
+ 1. item set=M.O.N.K.E.Y 1 ==> TID=T1 1    <conf:(1)> lift:(5) lev:(0.16) [0] conv:(0.8)
+ 2. TID=T1 1 ==> item set=M.O.N.K.E.Y 1    <conf:(1)> lift:(5) lev:(0.16) [0] conv:(0.8)
+ 3. item set=D,O,N,K,E,Y 1 ==> TID=T2 1    <conf:(1)> lift:(5) lev:(0.16) [0] conv:(0.8)
+ 4. TID=T2 1 ==> item set=D,O,N,K,E,Y 1    <conf:(1)> lift:(5) lev:(0.16) [0] conv:(0.8)
+ 5. item set=M,A,K,E 1 ==> TID=T3 1    <conf:(1)> lift:(5) lev:(0.16) [0] conv:(0.8)
+ 6. TID=T3 1 ==> item set=M,A,K,E 1    <conf:(1)> lift:(5) lev:(0.16) [0] conv:(0.8)
+ 7. item set=M,U,C,K,Y 1 ==> TID=T4 1    <conf:(1)> lift:(5) lev:(0.16) [0] conv:(0.8)
+ 8. TID=T4 1 ==> item set=M,U,C,K,Y 1    <conf:(1)> lift:(5) lev:(0.16) [0] conv:(0.8)
+ 9. item set=C,O,O,K,I,E 1 ==> TID=T5 1    <conf:(1)> lift:(5) lev:(0.16) [0] conv:(0.8)
+10. TID=T5 1 ==> item set=C,O,O,K,I,E 1    <conf:(1)> lift:(5) lev:(0.16) [0] conv:(0.8)
